@@ -1,8 +1,6 @@
 def roll_call_dwarves(array)
   dwarve_names=["Doc", "Dopey", "Bashful", "Grumpy"]
-  dwarve_names.map{
-    puts 
-  }
+  dwarve_names.map
   # Your code here
 end
 
