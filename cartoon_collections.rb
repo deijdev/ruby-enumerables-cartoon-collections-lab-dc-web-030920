@@ -1,6 +1,10 @@
 def roll_call_dwarves(array)
   dwarve_names=["Doc", "Dopey", "Bashful", "Grumpy"]
-  dwarve_names.each {
+  num=0
+  dwarve_names.each {|n| 
+    puts %{num} + n
+  }
+  num += 1
   # Your code here
 end
 
