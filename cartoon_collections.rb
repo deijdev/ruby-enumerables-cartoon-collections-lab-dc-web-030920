@@ -7,7 +7,8 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(short_words)
-   .length> 4??
+  
+   str.count(n)> 4??
   # Your code here
 end
 
