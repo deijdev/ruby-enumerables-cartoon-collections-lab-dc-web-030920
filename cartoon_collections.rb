@@ -6,11 +6,9 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.each{ |planeteer| planeteer.capitalize + "!" }
 end
 
-def long_planeteer_calls(short_words)
-   planeteer_calls.any? do |call|
-  call.length > 4
-  end
-end
+def long_planeteer_calls(calls)
+    calls.any? { |i| i.length > 4 }
+end	
 
 def find_the_cheese(cheese)
    cheese_types = ["cheddar", "gouda", "camembert"]
